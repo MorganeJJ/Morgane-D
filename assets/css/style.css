@@ -1,0 +1,101 @@
+body {
+  background-image: url('https://media4.giphy.com/media/xUA7b6NDFg8l6KHnUc/giphy.gif#5-grid3');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Lato', 'oswald';
+}
+
+header {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  font-family: 'Lato', 'oswald';
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
+
+li:hover {
+  background-color:rgba(0, 0, 0, .05);
+}
+
+a {
+  text-decoration: none;
+}
+
+.carte_de_visite {
+  background: #FFFFFF ;
+  width: 700px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url('https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/18835986_10213806968350710_328272878497823081_n.jpg?oh=ce8aa55d2b2e1ae8a389fa1387c1cea1&oe=59A332A5');
+  background-size: cover;
+  background-position: center;
+}
+
+.social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 50%;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 15px;
+  height: 15px;
+  margin:5px;
+  color:white;
+  background-color:#b3b3b3;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+
+}
+.btn-site {
+  background-color: #0489B1;
+  background-image: url('http://cdn.coding-days.com/upload/5dc1b548f17f23724aebf1f88b2658b4.png');
+  background-size: cover;
+}
+
+.btn-download {
+	background-color:#e76464;
+	position:fixed;
+	bottom: 42px;
+	right:42px;
+	width:50px;
+	height:50px;
+	font-size:20pt;
+	transition:none;
+}
